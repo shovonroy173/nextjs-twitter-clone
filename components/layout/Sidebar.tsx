@@ -51,6 +51,7 @@ const Sidebar = () => {
           ))}
           {currentUser && (
             <SidebarItem
+            href="/"
               onClick={() => signOut()}
               icon={BiLogOut}
               label="Logout"
